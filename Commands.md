@@ -1,4 +1,4 @@
-✓ Images
+✔  Images
 
 docker pull <image> - Download an image
 
@@ -6,7 +6,7 @@ docker images - List all images
 
 docker rmi <image> - Remove an image
 
-Containers
+✔ Containers
 
 docker run -d--name <container> <image> - Run a container in detached mode
 
