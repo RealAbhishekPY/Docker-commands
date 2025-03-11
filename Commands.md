@@ -5,6 +5,7 @@ docker pull <image> - Download an image
 docker images - List all images
 
 docker rmi <image> - Remove an image
+..................................................................................
 
 ✔ Containers
 
@@ -17,6 +18,7 @@ docker ps -a - List all containers
 docker stop <container> - Stop a container
 
 docker rm <container> - Remove a container
+..................................................................................
 
 ✔ Networking
 
@@ -27,6 +29,7 @@ docker network create <name> - Create a custom network
 docker network inspect <name> - Inspect a network
 
 docker network connect <network> <container> - Attach a container to a network
+..................................................................................
 
 ✔ Volumes & Storage
 
@@ -36,7 +39,8 @@ docker volume Is - List volumes
 
 docker volume inspect <name> - Inspect a volume
 
-- docker run -v <volume>:/path <image> - Mount a volume
+docker run -v <volume>:/path <image> - Mount a volume
+..................................................................................
 
 ✔ Docker Compose
 
@@ -45,6 +49,7 @@ docker-compose up -d - Start services in detached mode
 docker-compose down - Stop and remove containers
 
 - docker-compose logs - View logs of all services
+..................................................................................
 
 ✔ Building & Pushing Images
 
@@ -53,6 +58,7 @@ docker build -t <image>:<tag>. - Build an image
 docker tag <image> <repo>/<image>:<tag> - Tag an image
 
 docker push <repo>/<image>:<tag> - Push an image to a registry
+..................................................................................
 
 ✔ Debugging & Logs
 
