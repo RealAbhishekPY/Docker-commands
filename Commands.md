@@ -16,9 +16,8 @@ docker rmi <image> – Remove an image
 
 
 ---
-
 2. Containers
-
+---
 docker run -d --name <container> <image> – Run a container in detached mode
 
 docker ps – List running containers
