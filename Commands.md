@@ -6,7 +6,7 @@ Docker Cheat Sheet
 
 ---
 1. Images
-
+---
 docker pull <image> – Download an image
 
 docker images – List all images
