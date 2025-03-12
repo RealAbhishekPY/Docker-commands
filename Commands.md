@@ -31,9 +31,8 @@ docker rm <container> – Remove a container
 
 
 ---
-
 3. Networking
-
+---
 docker network ls – List networks
 
 docker network create <name> – Create a custom network
@@ -45,9 +44,8 @@ docker network connect <network> <container> – Attach a container to a network
 
 
 ---
-
 4. Volumes & Storage
-
+---
 docker volume create <name> – Create a volume
 
 docker volume ls – List volumes
@@ -59,9 +57,8 @@ docker run -v <volume>:/path <image> – Mount a volume
 
 
 ---
-
 5. Docker Compose
-
+---
 docker-compose up -d – Start services in detached mode
 
 docker-compose down – Stop and remove containers
@@ -71,8 +68,8 @@ docker-compose logs – View logs of all services
 
 
 ---
-
-6. Building & Pushing Images
+6. Building & Pushing Image
+---
 
 docker build -t <image>:<tag> . – Build an image
 
@@ -83,9 +80,8 @@ docker push <repo>/<image>:<tag> – Push an image to a registry
 
 
 ---
-
 7. Debugging & Logs
-
+---
 docker logs -f <container> – Follow logs of a running container
 
 docker exec -it <container> /bin/sh – Access a running container
@@ -95,9 +91,8 @@ docker inspect <container> – Get detailed container information
 
 
 ---
-
 Bonus Tip
-
+---
 Use multi-stage builds in Dockerfiles to keep your images lightweight and secure!
 
 
